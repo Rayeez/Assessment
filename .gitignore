@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+
+# Angular
+/dist
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+.angular
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db

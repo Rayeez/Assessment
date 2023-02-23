@@ -1,0 +1,74 @@
+.job-details {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-details__heading {
+    margin-top: 0;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+  }
+  
+  .user-info__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(33.33% - 20px);
+    margin-right: 20px;
+  }
+  
+  .user-info__label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .user-info__value {
+    color: #333;
+  }
+  
+  .user-status {
+    margin-top: 50px;
+  }
+  
+  .user-status__heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .user-status__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-status__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .user-status__label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .user-status__value {
+    color: #333;
+  }
+  

@@ -1,0 +1,40 @@
+<div class="task-form">
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+        <div class="form-field">
+            <mat-form-field>
+                <mat-label>Assigned To</mat-label>
+                <mat-select [formControl]="assignedControl" multiple required>
+                    <mat-select-trigger>
+                        {{assignedControl.value?.[0] || ''}}
+                        <span *ngIf="(assignedControl.value?.length || 0) > 1" class="additional-selection">
+                            (+{{(assignedControl.value?.length || 0) - 1}} {{assignedControl.value?.length === 2 ?
+                            'other' : 'others'}})
+                        </span>
+                    </mat-select-trigger>
+                    <mat-option *ngFor="let user of userRecords; let i = 'index'"
+                        [value]="i+1">{{user.user_name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="form-field">
+            <mat-form-field>
+                <mat-label>Status</mat-label>
+                <mat-select placeholder="Select The Status" name="status" [(ngModel)]="status" required>
+                    <mat-option matInput id="status" *ngFor="let element of allstatus"
+                        [value]="element">{{element}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div [matTooltip]="!myForm.form.valid ? 'Fill Form' : ''" class="wrapper-button">
+            <button mat-raised-button color="primary" type="submit" [disabled]="!myForm.form.valid">
+                Add Task
+            </button>
+        </div>
+    </form>
+</div>
+<div class="task-counts">
+    <div *ngFor="let item of count | keyvalue" class="task-count" (click)="gotoTarget(item.key)">
+        <div class="task-type">{{item.key | titlecase}}</div>
+        <div class="task-count-value">{{item.value}}</div>
+    </div>
+</div>

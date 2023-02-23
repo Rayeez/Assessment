@@ -1,0 +1,124 @@
+{
+    "users": [
+        {
+            "user_id": 1,
+            "user_name": "Mark",
+            "email": "mark@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 2,
+            "user_name": "Emma",
+            "email": "emma@yahoo.com",
+            "is_active": false
+        },
+        {
+            "user_id": 3,
+            "user_name": "John",
+            "email": "john@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 4,
+            "user_name": "Anna",
+            "email": "anna@hotmail.com",
+            "is_active": false
+        },
+        {
+            "user_id": 5,
+            "user_name": "Chris",
+            "email": "chris@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 6,
+            "user_name": "Kate",
+            "email": "kate@yahoo.com",
+            "is_active": false
+        },
+        {
+            "user_id": 7,
+            "user_name": "Mike",
+            "email": "mike@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 8,
+            "user_name": "Sarah",
+            "email": "sarah@hotmail.com",
+            "is_active": false
+        },
+        {
+            "user_id": 9,
+            "user_name": "David",
+            "email": "david@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 10,
+            "user_name": "Julia",
+            "email": "julia@yahoo.com",
+            "is_active": false
+        },
+        {
+            "user_id": 11,
+            "user_name": "Tom",
+            "email": "tom@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 12,
+            "user_name": "Emily",
+            "email": "emily@hotmail.com",
+            "is_active": false
+        },
+        {
+            "user_id": 13,
+            "user_name": "Nick",
+            "email": "nick@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 14,
+            "user_name": "Lily",
+            "email": "lily@yahoo.com",
+            "is_active": false
+        },
+        {
+            "user_id": 15,
+            "user_name": "Jake",
+            "email": "jake@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 16,
+            "user_name": "Olivia",
+            "email": "olivia@hotmail.com",
+            "is_active": false
+        },
+        {
+            "user_id": 17,
+            "user_name": "Alex",
+            "email": "alex@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 18,
+            "user_name": "Sophia",
+            "email": "sophia@yahoo.com",
+            "is_active": false
+        },
+        {
+            "user_id": 19,
+            "user_name": "Max",
+            "email": "max@gmail.com",
+            "is_active": true
+        },
+        {
+            "user_id": 20,
+            "user_name": "Lucy",
+            "email": "lucy@hotmail.com",
+            "is_active": false
+        }
+    ]
+}

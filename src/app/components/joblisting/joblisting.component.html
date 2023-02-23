@@ -1,0 +1,17 @@
+<div class="container">
+    <h1 class="heading">Job Listings</h1>
+    <div class="status-container">
+      <p class="status" [ngClass]="{
+        'status--green': status == 'COMPLETED',
+        'status--blue': status == 'STARTED',
+        'status--yellow': status == 'INPROGRESS'
+      }"><span class="status__label">Status : </span>{{ status | titlecase}}</p>
+    </div>
+  
+    <div class="job-listings">
+      <div *ngFor="let item of result" class="job-listing" (click)="gotoTarget(item['user'])">
+        <div class="job-listing-user"> <span>User : </span> {{item['user']}}</div>
+        <div class="job-listing-count"><span>Task {{status | titlecase}} : </span>{{item['statusCount']}}</div>
+      </div>
+    </div>
+  </div>

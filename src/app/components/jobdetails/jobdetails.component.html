@@ -1,0 +1,31 @@
+<section class="job-details">
+    <h1 class="job-details__heading">Job Details</h1>
+  
+    <div class="user-info">
+      <div class="user-info__item">
+        <div class="user-info__label">Email:</div>
+        <div class="user-info__value">{{ userEmail }}</div>
+      </div>
+  
+      <div class="user-info__item">
+        <div class="user-info__label">User ID:</div>
+        <div class="user-info__value">{{ userId }}</div>
+      </div>
+  
+      <div class="user-info__item">
+        <div class="user-info__label">Name:</div>
+        <div class="user-info__value">{{ userName }}</div>
+      </div>
+    </div>
+  
+    <div class="user-status">
+      <h2 class="user-status__heading">{{ userName }} Status</h2>
+      <div class="user-status__list">
+        <div *ngFor="let item of userStatus | keyvalue" class="user-status__item">
+          <div class="user-status__label">{{ item.key }}:</div>
+          <div class="user-status__value">{{ item.value }}</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
